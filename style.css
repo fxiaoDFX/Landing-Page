@@ -39,16 +39,84 @@ body {
 
 .body {
     flex: 1;
+    align-items: center;
 }
+
+.info-header {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin: 24px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+
+.container {
+    width: 200px;
+}
+
+.review {
+    text-align: center;
+    background-color: #e5e7eb;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+
+}
+
+.body-end {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    padding: 24px;
+    align-items: center;
+    border-radius: 5px;
+    max-width: 1000px;
+}
+
+.call {
+    font-size: 18px;
+    font-size: 900;
+    color: #f9faf8;
+}
+
+.call.sub {
+    font-size: normal;
+    color: #e5e7eb;
+}
+
+#button2 {
+    color:#f9faf8;
+    background-color: #3882f6;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.body > .container {
+    margin: 0px 0;
+}
+
 
 .footer {
     text-align: center;
     background-color: #1f2937;
     color: #e5e7eb;
     font-size: 18px;
+    padding: 16px;
+    margin: 48px 0;
 }
 
-button {
+.left > button {
     color: #f9faf8;
     font-weight: bold;
     background-color: #3882f6;
@@ -77,4 +145,17 @@ blockquote {
 
 figcaption {
     margin-left: 155px;
+}
+
+.body img {
+    width: 200px;
+    height: 200px;
+}
+
+.text{
+    text-align: center;
+}
+
+.section {
+    margin: 64px 0;
 }

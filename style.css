@@ -152,7 +152,8 @@ blockquote {
 }
 
 figcaption {
-    margin-left: 155px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .body img {
@@ -163,3 +164,4 @@ figcaption {
 .text{
     text-align: center;
 }
+
